@@ -6,14 +6,13 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(#ffdaf4, #ffe6f7);
+    background: linear-gradient(#ffe6f7, #fff);
     background-size: cover;
     background-repeat: no-repeat;
-    text-align: center;
+
 }
 
 h1 {
-    position: relative;
-    top: 500px;
-    color: white;
+    margin-top: 30px;
+    color: #b19cd9 ;
 }
