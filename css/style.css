@@ -13,13 +13,22 @@
 }
 
 body {
-    height: 100vh;
-    background: var(--bkg-main);
-    background-size: cover;
-    background-repeat: no-repeat;
-
+  height: 100%;
+  width: 100%;
+  background-image: url(images/bg1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center right;
+  background-attachment: fixed;
+  background-color: var(--bkg-clr-main);
 }
-
+@media screen and (min-width: 1000px) {
+  body {
+      background-image: url(../images/background4.jpg);
+      background-size: 100%;
+      background-repeat: no-repeat;
+  }
+}
 /*NAVBAR*/
 .topnav {
     overflow: hidden;
