@@ -13,14 +13,17 @@
     font-family: 'Emilys Candy';
 }
 
-.container {
-  margin: 0 auto;
-}
-
 /*NAV*/
 nav {
   background-color: var(--bkg-main);
   height: 50px;
+}
+
+/*NARROW*/
+.narrow {
+  margin: 0 auto;
+  max-width: 1200px;
+  background-color: var(--bkg-main);
 }
 
 /*HEADER*/
@@ -46,17 +49,28 @@ main {
   text-align: center;
 }
 
-.box {
-  display: inline-block;
-  padding: 10px;
-  width: 25%;
+.container {
+  display: flex;
+  justify-content: center;
 }
 
+.box {
+  margin: 10px;
+  padding: 10px;
+  width: 32%;
+  border: 1px solid var(--txt-main)
+}
+
+/*CONTACT*/
 .contact {
   min-height: 800px;
   background-image: url("/emily/css/images/bg4.jpg");
   background-position: center;
   background-size: cover;
+}
+
+form {
+
 }
 
 .about {
