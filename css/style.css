@@ -1,118 +1,15 @@
-:root {
-    --bkg-main: #FCF9F2;
-    --bkg-nav: #F5D0DC;
-    --bkg-ft: #F1F1F1;
-    --bkg-nav-sec: #D7CFF6;
-    --txt-main: #b19cd9;
-    --txt-sec: #fff;
-}
-
-* {
-    margin: 0;
+*, *::after, *::before {
     padding: 0;
-    font-family: 'Emilys Candy';
+    margin: 0;
+    box-sizing: border-box;
 }
 
-/*NAV*/
-nav {
-  background-color: var(--bkg-nav);
-  height: 50px;
+.outline {
+    border: 1px solid palevioletred;
+    margin: .5rem;
 }
 
-/*HEADER*/
-.top {
-
-  background-image: url("/emily/css/images/bg2.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-.header {
-  padding: 20px;
-  text-align: center;
-  font-size: 40px;
-  min-height: 200px;
-  color: var(--txt-sec);
-  font-family: 'The Nautigal', cursive;
-}
-
-/*ORDER*/
-
-.order {
-  height: 300px;
-  text-align: center;er;
-  color: var(--txt-sec);
-}
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.box {
-  margin: 10px auto;
-  padding: 10px;
-  width: 45%;
-  border: 1px solid var(--bkg-nav);
-  border-radius: 10px;;
-  background-color: rgba(96,82,86, 0.5);
-}
-
-/*CONTACT*/
-.contact {
-  min-height: 400px;
-  background-color: var(--bkg-nav);
-  padding: 10%;
-}
-
-.card {
-  padding: 20px;
-  background-color: rgba(0,0,0, 0.5);
-  text-align: center;
-  border-radius: 10px;
-  color: var(--txt-sec);
-}
-
-form {
-
-}
-
-.about {
-  height: 500px;
-  background-image: url("/emily/css/images/bg3.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-
-.social {
-  height: 500px;
-background-color: var(--bkg-nav);
-}
-
-/*FOOTER*/
-footer {
-  background-color: var(--bkg-ft);
-  padding: 32px;
-  text-align: center;
-  font-size: 14px;
-}
-
-footer ul {
-  list-style: none;
-}
-
-footer li {
-  display: inline-block;
-}
-
-footer li a {
-  text-decoration: none;
-  color: var(--txt-main);
-  padding: 30px;
-}
-
-footer li a:hover {
-  color: var(--txt-sec);
+.main-box {
+    width: 100vw;
+    height: 100vh;
 }
